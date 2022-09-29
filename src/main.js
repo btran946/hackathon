@@ -5,44 +5,14 @@
 //     document.getElementById('body').appendChild('ninja');
 // });
 
+// body.addEventListener('mouseover', () => {
+//   console.log('HIT!!');
+// });
 
+var body = document.querySelector('body');
+body.parentNode.removeChild(body);
 
-
-
-
-document.addEventListener('click', () => {
-  var test = document.querySelectorAll('.MV3Tnb');
-  console.log("I am clicking!!");
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// to add to the scripts manifest "jquery.min.js", 
-
+// to add to the scripts manifest "jquery.min.js",
 
 //JavaScript
 // var body = document.querySelectorAll('.MV3Tnb')
